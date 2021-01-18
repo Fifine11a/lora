@@ -295,10 +295,30 @@ nav a:hover {
 
     text-align: center;
   }
+
+  .gallery_text {
+    width: 30%;
+
+    margin-right: 65%;
+    padding-bottom: 4rem;
+
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
   #nav-btn {
     display: none;
   }
+}
+
+.gallery {
+  padding-top: 30rem;
+  padding-bottom: 3rem;
+
+  text-align: center;
+}
+
+.gallery p {
+  font-size: 1.2rem;
 }
